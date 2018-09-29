@@ -1,0 +1,63 @@
+html {
+    height: 100%
+}
+
+.bg {
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.drums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 6px solid rgb(145, 145, 145);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 5px;
+    transition: all .09s;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: rgba(185, 253, 238, 0.4);
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ff00ff;
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+.key {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: white;
+}
+
+.drum_sound {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00f7ff;
+}
